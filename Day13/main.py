@@ -56,6 +56,7 @@ def newHorizonalReflection(chunk: list, index)->int:
                     return val        
     return 0
 
+
 def main()->None:
     with open("input.txt", "r") as f:
         chunks = chunkify(f)
